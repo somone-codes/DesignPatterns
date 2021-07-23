@@ -8,7 +8,5 @@ public abstract class Duck {
 
     abstract public void display();
 
-    public void fly(){
-        System.out.println("Look I am flyyin!");
-    }
+    abstract public void fly();
 }
