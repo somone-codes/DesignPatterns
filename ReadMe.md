@@ -7,3 +7,7 @@ obtained from the book - Head First Design Patterns`
     > _Identify the aspects of your
       application that vary and separate
       them from what stays the same_  
+
+2. **Pattern 2**
+    > _Program to an interface, not an
+       implementation._
