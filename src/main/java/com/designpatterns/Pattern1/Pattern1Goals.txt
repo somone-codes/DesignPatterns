@@ -1,0 +1,7 @@
+1.We need to simulate Duck.
+2.Duck should be able to quack.
+3.Duck should be able to swim.
+4.Duck should be able to fly.
+5.Support Mallard duck which can quack and fly.
+6.Support Rubber duck which can squeak.
+7.Support adding new ducks and new behaviours at ease.
