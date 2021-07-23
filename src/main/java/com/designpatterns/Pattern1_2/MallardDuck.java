@@ -1,6 +1,6 @@
-package com.designpatterns.singleton;
+package com.designpatterns.Pattern1_2;
 
-public class MallardDuck extends Duck {
+public class MallardDuck extends Duck implements IFly{
     @Override
     public void display() {
         System.out.println("I am a Mallard duck");

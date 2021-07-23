@@ -1,4 +1,4 @@
-package com.designpatterns.singleton;
+package com.designpatterns.Pattern1_2;
 
 public abstract class Duck {
 
@@ -8,5 +8,4 @@ public abstract class Duck {
 
     abstract public void display();
 
-    abstract public void fly();
 }

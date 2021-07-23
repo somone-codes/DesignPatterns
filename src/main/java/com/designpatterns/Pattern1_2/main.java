@@ -1,4 +1,4 @@
-package com.designpatterns.singleton;
+package com.designpatterns.Pattern1_2;
 
 public class main {
     public static void main(String[] args) {
@@ -6,6 +6,5 @@ public class main {
         duck.display();
 
         duck = new RubberDuck();
-        duck.fly();
     }
 }
