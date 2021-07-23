@@ -1,6 +1,6 @@
-package com.designpatterns.Pattern1_2.duck.behaviours.Fly.impl;
+package com.designpatterns.Pattern1_2_3.duck.behaviours.Fly.impl;
 
-import com.designpatterns.Pattern1_2.duck.behaviours.Fly.FlyBehaviour;
+import com.designpatterns.Pattern1_2_3.duck.behaviours.Fly.FlyBehaviour;
 
 public class FlyingWithWings implements FlyBehaviour {
 

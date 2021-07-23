@@ -1,8 +1,8 @@
-package com.designpatterns.Pattern1_2;
+package com.designpatterns.Pattern1_2_3;
 
 
-import com.designpatterns.Pattern1_2.duck.Duck;
-import com.designpatterns.Pattern1_2.duck.impl.MallardDuck;
+import com.designpatterns.Pattern1_2_3.duck.Duck;
+import com.designpatterns.Pattern1_2_3.duck.impl.MallardDuck;
 
 public class SimulateDuck {
     public static void main(String[] args) {

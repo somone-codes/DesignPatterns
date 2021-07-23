@@ -10,4 +10,7 @@ obtained from the book - Head First Design Patterns`
 
 2. **Pattern 2**
     > _Program to an interface, not an
-       implementation._
+       implementation._  
+
+3. **Pattern 3**
+    > _Favor composition over inheritance_  

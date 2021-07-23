@@ -1,6 +1,6 @@
-package com.designpatterns.Pattern1_2.duck.behaviours.Quack.impl;
+package com.designpatterns.Pattern1_2_3.duck.behaviours.Quack.impl;
 
-import com.designpatterns.Pattern1_2.duck.behaviours.Quack.QuackBehavior;
+import com.designpatterns.Pattern1_2_3.duck.behaviours.Quack.QuackBehavior;
 
 public class Squeak implements QuackBehavior {
     @Override

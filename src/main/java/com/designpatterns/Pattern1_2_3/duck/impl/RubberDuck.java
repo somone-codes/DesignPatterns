@@ -1,8 +1,8 @@
-package com.designpatterns.Pattern1_2.duck.impl;
+package com.designpatterns.Pattern1_2_3.duck.impl;
 
-import com.designpatterns.Pattern1_2.duck.Duck;
-import com.designpatterns.Pattern1_2.duck.behaviours.Fly.impl.NoFly;
-import com.designpatterns.Pattern1_2.duck.behaviours.Quack.impl.Squeak;
+import com.designpatterns.Pattern1_2_3.duck.Duck;
+import com.designpatterns.Pattern1_2_3.duck.behaviours.Fly.impl.NoFly;
+import com.designpatterns.Pattern1_2_3.duck.behaviours.Quack.impl.Squeak;
 
 public class RubberDuck extends Duck {
 
