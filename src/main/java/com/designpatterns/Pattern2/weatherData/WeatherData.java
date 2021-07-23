@@ -1,11 +1,12 @@
 package com.designpatterns.Pattern2.weatherData;
 
 import com.designpatterns.Pattern2.weatherData.subject.Subject;
-import com.designpatterns.Pattern2.weatherData.observer.Observer;
+import org.json.JSONObject;
 
 import java.util.ArrayList;
+import java.util.Observable;
 
-public class WeatherData implements Subject<Observer> {
+public class WeatherData extends  Observable implements Subject<java.util.Observer> {
 
     private ArrayList observers;
 
@@ -18,21 +19,22 @@ public class WeatherData implements Subject<Observer> {
     }
 
     @Override
-    public void subscribe(Observer observer) {
-        this.observers.add(observer);
+    public void subscribe(java.util.Observer o) {
+        addObserver(o);
     }
 
     @Override
-    public void unsubscribe(Observer observer) {
-        int index = this.observers.indexOf(observer);
-        if (index>=0)
-            this.observers.remove(index);
+    public void unsubscribe(java.util.Observer o) {
+        unsubscribe(o);
     }
 
-    @Override
     public void notifySubscribers() {
-        observers.stream().map(Observer.class::cast).forEach(observer-> ((Observer) observer).update(temperature,
-                pressure, humidity));
+        JSONObject dataJson = new JSONObject();
+        dataJson.put("temperature", temperature);
+        dataJson.put("humidity", humidity);
+        dataJson.put("pressure", pressure);
+        setChanged();
+        notifyObservers(dataJson);
     }
 
     public  void weatherUpdate(float temperature, float humidity, float pressure){
